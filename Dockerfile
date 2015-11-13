@@ -1,4 +1,4 @@
-FROM dylanlindgren/docker-laravel-artisan:latest
+FROM mogria/docker-laravel-phpcli:latest
 
 MAINTAINER "Mogria" <m0gr14@gmail.com>
 
