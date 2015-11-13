@@ -5,4 +5,4 @@ Although it uses the `www-data` user to run `artisan` instead of `root`.
 
 This image is used to develop the [3source](https://github.com/mogria/3source) project.
 
-View on dockerhub: https://hub.docker.com/r/mogria/docker-laravel-artisan
+View on [dockerhub](https://hub.docker.com/r/mogria/docker-laravel-artisan)
