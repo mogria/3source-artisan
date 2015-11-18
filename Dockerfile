@@ -1,4 +1,4 @@
-FROM mogria/docker-laravel-phpcli:latest
+FROM mogria/3source-phpcli:latest
 
 MAINTAINER "Mogria" <m0gr14@gmail.com>
 
