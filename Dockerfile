@@ -12,5 +12,5 @@ VOLUME ["/data"]
 WORKDIR /data/www
 
 USER www-data
-ENTRYPOINT ["php", "artisan"]
+ENTRYPOINT ["umask-wrapper.sh", "php", "artisan"]
 CMD ["--help"]
