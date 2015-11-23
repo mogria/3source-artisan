@@ -4,8 +4,7 @@ MAINTAINER "Mogria" <m0gr14@gmail.com>
 
 WORKDIR /tmp
 
-RUN apt-get update -y && \
-    apt-get install -y php5-mysql
+RUN apk add --update php-mysql
 
 RUN mkdir -p /data/www
 VOLUME ["/data"]
