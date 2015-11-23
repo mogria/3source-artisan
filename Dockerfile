@@ -5,7 +5,6 @@ MAINTAINER "Mogria" <m0gr14@gmail.com>
 WORKDIR /tmp
 
 USER root
-RUN apk add --update php-mysql
 
 RUN mkdir -p /data/www
 VOLUME ["/data"]
